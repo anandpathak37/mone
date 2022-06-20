@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Ruby: MyString
+  Ruby_on_rails: MyString
+  python: MyString
+  Django: MyString
+  Go: MyString
+  Angular: MyString
+  React: MyString
+  VueJs: MyString
+  Blockchain: MyString
+  Machinelearning: MyString
+  datascience: MyString
+  Nodejs: MyString
+  devopps: MyString
+
+two:
+  Ruby: MyString
+  Ruby_on_rails: MyString
+  python: MyString
+  Django: MyString
+  Go: MyString
+  Angular: MyString
+  React: MyString
+  VueJs: MyString
+  Blockchain: MyString
+  Machinelearning: MyString
+  datascience: MyString
+  Nodejs: MyString
+  devopps: MyString

@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* @import url('css/font-awesome.min.css');*/
+
+/* In html file */
+/*<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta name="viewport" content="width=device-width">*/
+
+/**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+/* Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+@media (max-width: 1599px) {
+#job_opening_sec #filters{ width:60%;} 
+}
+
+@media (max-width: 1400px) {
+#job_opening_sec #filters{ width:70%;}
+#partner_sec .element_img{ top:-70px;}
+}
+@media (max-width: 1300px) {
+#or_serv_sec .element_img.element_img9{ display:none;}
+#slide_sec .owl-carousel .owl-nav button.owl-prev{ left:0px;}
+#slide_sec .owl-carousel .owl-nav button.owl-next{ right:0px;}
+}
+@media (max-width: 1200px) {
+.powered_by{ padding:0px 0px 20px;}
+#job_opening_sec .element_img{ width:170px;}
+#partner_sec.partner_sec2 .element_img{ width:190px; top:-80px;}
+#partner_sec .element_img2{ width:100px; bottom:-50px;}
+header .head_ul2 li a { padding:7px 10px;}
+header .logo.custom_ico5{ width:160px; background-size:600%;  background:url(logo.png) no-repeat;  height:81px; background-position:0px 0px;}
+#our_team_sec .team_box .team_box_overlay{ bottom:-284px;}
+#app_screensec .owl-theme .owl-nav{ bottom:-20px;}
+#slide_sec h3{ font-size:28px;}  
+.owl-carousel .owl-item img{ width:60% !important;}
+#experience_sec .counter_bx1{ margin-right:0px;}
+	}
+
+@media (max-width: 1069px) {
+.or_partner{ width:174px;}
+#job_opening_sec .element_img{ width:150px;}
+#job_opening_sec #filters{ width:90%;}
+#client_saysec .element_img{ width:170px; top:-80px; top:0px;}
+#partner_sec .element_img{ width:170px;}
+#our_team_sec .team_box h5{ font-size:20px;}
+#testimonial_sec{ padding:0px;}
+#testimonial_sec .testimonial_imgbx .testimonial_imgbx_inner h4{ font-size:68px;}
+#testimonial_sec .testimonial_imgbx .testimonial_imgbx_inner h3{ font-size:86px;}
+#testimonial_sec .testimonial_imgbx .testimonial_imgbx_inner i{ font-size:90px;}  
+#app_screensec .owl-theme .owl-nav{ bottom:-40px;}
+#experience_sec .counter-value{ font-size:32px;}
+#experience_sec i{ font-size:24px;}
+h2.mheading{ font-size:33px;}
+header .head_ul2 li a{ padding:7px 9px;}
+
+header .head_ul2 li{ display:none;}
+header .head_ul2 li:last-child{ display:inline-block;}
+header .toggle{ display:block;}
+}
+
+@media (max-width: 992px) {
+.or_partner{ width:155px;}
+.or_partner1{ background-position:-14px 0px;}
+.or_partner2{ background-position:-203px 0px;}
+.or_partner3{ background-position:-392px 0px;}
+.or_partner4{ background-position:-581px 0px;}
+.or_partner5{ background-position:-770px 0px;}
+.or_partner6{ background-position:-959px 0px;}
+.or_partner7{ background-position:-1148px 0px;}
+.or_partner8{ background-position:-1337px 0px;}
+.or_partner9{ background-position:-1526px 0px;}
+.or_partner10{ background-position:-1715px 0px;}
+.or_partner11{ background-position:-1904px 0px;}
+.or_partner12{ background-position:-2093px 0px;}
+#Program_Overview_sec ul li p{ font-size:16px;}
+#Blockchain_sec h4{ font-size:20px;}
+#blog_pg .blog_side1 h4, #blog_pg .blog_single_cnt h5{ font-size:24px;}
+#blog_pg .blog_single_cnt p{ font-size:16px;}
+#blog_pg .blog_side1 ul li a, #blog_pg .blog_side1 ul li a:hover{ font-size:14px;}
+#blog_pg .blog_side1.blog_side2 ul li ul li:first-child, #blog_pg .blog_side1.blog_side2 ul li ul li:last-child{ display:block; width:auto; float:none; text-align:center;}
+#blog_pg .blog_side1.blog_side2 ul li p, #blog_pg .blog_side1.blog_side2 ul li h6{ text-align:center;}
+#get_domain_sec ul li h5{ font-size:16px;}
+#get_domain_sec ul li h6{ font-size:20px;} 
+#client_saysec .element_img{ left:-65px;}
+.portfolio .label-text h5{ font-size:16px;}
+.portfolio .label-text h6{ font-size:15px;}
+#lokking_frsec .lokking_frsec_inner{ padding:140px 0px;}
+#lokking_frsec .lokking_frsec_inner h3{ font-size:50px;}
+#or_serv_sec .serv_innerbx h4{ font-size:18px;}
+#our_team_sec .team_box{ margin-bottom:20px;}
+.foot_social{ padding:35px 0px;} 
+.let_talk h3{ margin-top:0px;}
+footer .element_img{ z-index:8; right:0px;}
+footer .footer_form .talk_form{ margin-bottom:25px;}
+footer .footer_form .foot_social{ position:static;}
+#testimonial_sec .row{ height:auto;}
+#testimonial_sec ul.text-left{ text-align:center !important;}
+#testimonial_sec{ padding:35px 0px;}
+#app_screensec h2.mheading, #testimonial_sec  h2.mheading{ text-align:center;}
+#testimonial_sec p{-moz-text-align-last: center;
+    text-align-last: center;}
+ #testimonial_sec  h2.mheading{ margin-top:0px;}
+#testimonial_sec .testi_owl { width:75%; margin:auto;}
+#app_screensec p{ -moz-text-align-last: center; 
+  text-align-last: center;}
+  #app_screensec .owl-theme .owl-nav{ left:0px; right:0px; text-align:center; margin:auto;} 
+#app_screensec .owl-carousel .owl-item{ text-align:center;}
+#app_screensec .owl-theme .owl-nav{ position:static;}
+#app_screensec .app_screen_content{ position:static;}
+#experience_sec .counter_bx{ margin:auto !important; width:100%; padding: 22px 13px 30px;}
+#service_sec h2.mheading{ text-align:center;}
+#service_sec h2.mheading br{ display:none;}
+#service_sec .element_img{ display:none;}
+body { padding-top:50px; }
+#idea_sec ul li p{ font-size:18px;}
+#idea_sec ul li h4{ font-size:24px;}
+}
+@media (max-width: 800px) {
+#slide_sec{ padding-top:100px;}
+}
+/* Collapse oversized image and pulled images after iPad breakpoint. */
+@media (max-width: 767px) {
+.element_img , .element_img2, .element_img3{ display:none !important;}  
+/*.or_partner{ width:100px; background-size:1200%;}
+.or_partner1{ background-position:-100px 0px;}
+.or_partner2{ background-position:-200px 0px;}
+.or_partner3{ background-position:-300px 0px;}
+.or_partner4{ background-position:-400px 0px;}
+.or_partner5{ background-position:-500px 0px;}
+.or_partner6{ background-position:-600px 0px;}
+.or_partner7{ background-position:-700px 0px;}
+.or_partner8{ background-position:-800px 0px;}
+.or_partner9{ background-position:-900px 0px;}
+.or_partner10{ background-position:-1000px 0px;}
+.or_partner11{ background-position:-1100px 0px;}
+.or_partner12{ background-position:-1200px 0px;}*/
+#Program_Overview_sec .program_ul li{ width:100%; float:none;} 
+#Program_Overview_sec h4{ width:100%;}
+#blog_pg .blog_side1.blog_side2 ul li ul li:first-child{ width:25%; float:left; text-align:left;}
+#blog_pg .blog_side1.blog_side2 ul li ul li:last-child{ width:70%; float:left; text-align:left;} 
+#blog_pg .blog_side1.blog_side2 ul li p, #blog_pg .blog_side1.blog_side2 ul li h6{ text-align:left;}
+#job_opening_sec .job_detail .full_detail h4{ font-size:24px;}
+#job_opening_sec .job_detail .full_detail ul.department_ul li, #job_opening_sec .content_describe h6{ font-size:20px;}
+#filters li span{ font-size:15px; padding:5px 7px;}
+#job_opening_sec #filters{ width:100%;}
+#project_sec p{ max-width:100%;}
+#portfoliolist .portfolio{ width:50%;}
+#contact_content .contact_content_bx h5{ font-size:18px;}
+#service_insec2 ul li{ float:left; width:48%;}
+#service_insec2.service_insec3 ul li{ width:100%; float:none;}
+ #service_insec2 ul:after{ content:''; clear:both; display:block;}
+#lokking_frsec .lokking_frsec_inner h3{ font-size:40px;}
+#lokking_frsec .lokking_frsec_inner{ padding:100px 0px;}
+.serv_innerbx .div_line{ display:none;}
+#or_serv_sec .serv_innerbx{ padding-bottom:0px;}
+#our_team_sec .team_box .team_box_overlay{ position:static; width:100%;}
+#our_team_sec .team_box{ width:85%; margin:auto; margin-bottom:20px;}
+#our_team_sec .team_box .team_box_overlay{     -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; padding:10px;}
+#our_team_sec .team_box img{ width:100%;}
+#experience_sec.experience_inner .counter_bx{ width:100%; margin:0px;}
+#experience_sec .counter-value{ font-size:30px;}
+.main_footer{ position:relative;}
+footer .element_img{ width:200px;}
+#app_screensec, #develop_sec, .client_logosec_inner, #supporting_sec, #idea_sec .idea_sec_inner, #experience_sec, #service_sec, #made_plan_sec, #our_team_sec, #service_insec2, #partner_sec, #our_partner_sec,#project_sec, #job_opening_sec, #Blockchain_Tech_service_insec2, #Program_Overview_sec{ padding:18px 0px;}
+#client_saysec{ padding-bottom:18px;}
+#app_screensec a.a_btn{ margin-top:20px;}
+.element_img { display:none;}
+#idea_sec ul li{ margin-bottom:20px;}
+h2.mheading { font-size:28px;} 
+#experience_sec .counter_bx{ margin-bottom:20px !important; width:80%;}
+#service_sec .service_bx .moon{ width:155px; height:155px;}
+/*footer{ display:none;}*/
+/*#slide_sec{ display:none;}*/
+.owl-carousel .owl-item img{ width:82% !important;}
+}
+
+@media (max-width: 643px) {
+#job_opening_sec .content_describe{ padding:10px 0px;}
+#client_saysec .client_saycrausal{ margin-top:0px;}
+.client_saycrausal  .owl-dots{ display:none;}
+.portfolio .label{ height:69px;}
+#partner_sec h4{ font-size:21px;}
+.element_img2 { display:none;}
+.inner_pg_bnr_div nav{ display:none;}
+#experience_sec.experience_inner .col-sm-3{-ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;}
+	#experience_sec.experience_inner .counter_bx{ margin-top:0px !important;}
+#slide_sec p{ display:none;}
+.owl-carousel .owl-item img{ width:auto !important;}
+#slide_sec h3{ font-size:20px;}
+#slide_sec p{ font-size:14px !important;}
+p{ font-size:17px !important;}
+}
+@media (max-width: 576px) {
+#contact_content .contact_content_bx{ margin-bottom:20px;}
+#Program_Overview_sec h4{ font-size:14px;}
+#blog_pg .blog_side1 h4, #blog_pg .blog_single_cnt h5{ font-size:20px;}
+#job_opening_sec .job_detail .a_btn{ font-size:14px;}
+#job_opening_sec .job_detail .hide_contenta { margin-top:10px;}
+#job_opening_sec .content_describe ul li{ text-align:justify;}
+#job_opening_sec .content_describe ul li{ font-size:14px;}
+#job_opening_sec .job_detail .full_detail h4{ font-size:20px;}
+#job_opening_sec .job_detail .full_detail ul.department_ul li, #job_opening_sec .content_describe h6{ font-size:17px;}
+#filters.carier_mdiv{ border-bottom:none;}
+#filters.carier_mdiv li{ width:33.333%; float:left;}
+#filters.carier_mdiv li span{ display:block; background-color:#616163; color:#fff; margin-bottom:2px; border-right:2px solid #fff;}
+#filters.carier_mdiv li span.active{ background-color:#f36e53;}
+#job_opening_sec #portfoliolist2 .job_detail .short_detail .short_content ul li span{ width:130px;}
+#job_opening_sec #portfoliolist2 .job_detail .short_detail .short_content ul li strong{ width:40px;}
+#job_opening_sec #portfoliolist2 .job_detail .short_detail .short_content a.content_a{position: absolute;
+    right: inherit;
+    bottom: 0px;
+    font-size: 16px;
+    text-decoration: underline !important;
+    left: 0px;}
+#filters.carier_mdiv:after{ content:''; clear:both; display:block;}
+#filters.carier_mdiv li span .sp_dot{ display:none;}
+#portfoliolist .portfolio{ width:100%;}
+#partner_contact #contact_content .contact_content_bx, #partner_contact #contact_content .contact_content_bx.contact_content_bx3{ margin-bottom:35px;}
+#contact_form_sec .contact_frmdiv{ width:100%; padding:20px;}
+#partner_contact .contact_frmdiv h4{ text-align:center;} 
+p{ font-size:14px !important;}
+#lokking_frsec .lokking_frsec_inner h3{ font-size:32px;}
+#lokking_frsec .lokking_frsec_inner{ padding:70px 0px;}
+#inner_pg_bnr { padding-top:50px;}
+.main_footer .mn_footbx h5{ font-size:18px;}
+.foot_social ul li { margin-right:20px !important;}
+.let_talk h3, .let_talk h2.mheading{ text-align:center;}
+h2.mheading{ font-size:24px;}
+#supporting_sec .nav-pills{ width:100%;}
+#idea_sec ul.idea_sec_ul1 li h4, #idea_sec ul.idea_sec_ul2 li h4{ text-align:center;}
+#idea_sec ul.idea_sec_ul1 li p, #idea_sec ul.idea_sec_ul2 li p{     -moz-text-align-last: center;
+    text-align-last: center;
+}
+#experience_sec .counter_bx{ margin-bottom:20px !important; width:100%;}
+}
+@media (max-width: 480px) {
+#our_partner_sec .partner_secbx{ padding:6px 0px;}
+.or_partner1{ background-position:-11px 12px;}
+.or_partner2{ background-position:-147px 12px;}
+.or_partner3{ background-position:-283px 12px;}
+.or_partner4{ background-position:-430px 12px;}
+.or_partner5{ background-position:-566px 12px;}
+.or_partner6{ background-position:-707px 12px;}
+.or_partner7{ background-position:-847px 12px;}
+.or_partner8{ background-position:-980px 12px;}
+.or_partner9{ background-position:-1125px 12px;}
+.or_partner10{ background-position:-1261px 12px;}
+.or_partner11{ background-position:-1403px 12px;}
+.or_partner12{ background-position:-1537px 12px;}
+.or_partner{     width: 118px;
+    background-size: 1416%;
+}
+#blog_pg ul li a.page-link, #blog_pg ul li span.page-link, #blog_pg ul li a.page-link:hover, #blog_pg ul li span.page-link:hover{ font-size:17px; height:35px; width:35px;}
+#filters{ width:260px;}
+#our_partner_sec .col-4{   -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;}
+	#our_partner_sec .element_img_part{ display:none;}
+#contact_form_sec .contact_frmdiv form textarea{ height:140px;}
+#partner_contact .contact_frmdiv h4{ font-size:24px;}
+#contact_form_sec .contact_frmdiv{ padding:12px 0px;}
+#service_insec2 ul li{ float:none; width:100%;}
+#lokking_frsec .lokking_frsec_inner h3{ font-size:24px;}
+#lokking_frsec .lokking_frsec_inner{ padding:40px 0px;}
+footer .element_img{ width:170px;}
+.foot_social{ padding:18px 0px;}
+.foot_social ul li{ display:block; text-align:center; margin-bottom:12px; margin-right:0px !important;}
+.foot_social ul li i, .foot_social ul li span{ display:none;}
+.foot_social ul li:last-child{ margin-bottom:0px;}
+.foot_social ul li h6{ text-align:center;} 
+#testimonial_sec .testi_owl{ width:100%;}
+header .head_ul2 li a{ font-size:12px;}
+a.a_btn{ padding:7px 9px !important;}
+header .logo.custom_ico6, header.stickedhead .logo.custom_ico6{ width:100px !important; background-size:600% !important;  background:url(logo.png) no-repeat; height:51px; background-position:0px 0px;}
+h2.mheading { font-size:24px;}
+
+}
+@media (max-width: 400px) {
+#Blockchain_sec h4{ font-size:16px;} 
+#blog_pg .blog_side1.blog_side2 ul li ul li:first-child, #blog_pg .blog_side1.blog_side2 ul li ul li:last-child{ display:block; width:auto; float:none; text-align:center;}
+#blog_pg .blog_side1.blog_side2 ul li p, #blog_pg .blog_side1.blog_side2 ul li h6{ text-align:center;}
+#filters.carier_mdiv li span{ font-size:13px;}
+#job_opening_sec #portfoliolist2 .job_detail .short_detail .short_content ul li strong{ width:20px;}
+#job_opening_sec #portfoliolist2 .job_detail .short_detail .short_content ul li span{ width:112px;}
+#our_team_sec .team_box .team_box_overlay h5, #our_team_sec .team_box .team_box_overlay ul{ margin-top:0px;}
+
+#slide_sec h3{ font-size:16px;}
+#slide_sec a.a_btn{ font-size:12px;}
+#supporting_sec .nav-pills a.nav-link{ padding:8px 3px; font-size:13px;}
+#supporting_sec .col-4{   -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;}
+	#experience_sec .counter_bx{ width:80%;} 
+ #experience_sec  .col-6{    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;}
+	#service_sec .service_bx .moon{ display:none;}
+}
+
+/* Mobile devices */
+@media (max-width: 359px) {
+#filters.carier_mdiv li span{ font-size:11px;}
+#lokking_frsec .lokking_frsec_inner{ padding:15px 0px;}
+#experience_sec.experience_inner .col-sm-3{-ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;}
+header .head_ul2 li a { font-size:10px;}
+
+}
+/**
+ * 9.0 Print
+ * ----------------------------------------------------------------------------
+ */
+
+/* Retina-specific styles. */
+@media print,
+	(-o-min-device-pixel-ratio: 5/4),
+	(-webkit-min-device-pixel-ratio: 1.25),
+	(min-resolution: 120dpi) {
+
+}
+
+@media print {
+
+}

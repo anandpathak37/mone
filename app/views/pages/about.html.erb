@@ -1,0 +1,255 @@
+<section id="inner_pg_bnr">
+  <div class="bg"><%= image_tag("inner_pgbg.png", alt: "", class: "w-100") %></div>
+  
+  <div class="inner_pg_bnr_div">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 text-left align-self-center">
+          <h2 class="mheading">About</h2>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item text_sitec" aria-current="page">About</li>
+            </ol>
+          </nav>
+        </div>
+        <div class="col-6 align-self-center text-right"> <%= image_tag("about_bnr.png", alt: "") %></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="made_plan_sec">
+  <div class="element_img hang"><%= image_tag("element_6.png", alt: "") %></div>
+
+  <h2 class="mheading text-center"><%=  sanitize @about.title %></h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-12 order-12 order-md-1 align-self-center">
+        <!-- <p>Shriffle is a software design and development company that provides end-to-end development service for web and mobile development. We work on a wide range of technologies ranging from open source to proprietary and custom built solutions.</p> 
+         With years of experience we have perfected the process, system and technologies that enable us to create high-quality, scalable web and mobile solutions. Our goal is to always have our end products reflect our deep engineering skills and elegant progressive design aesthetic. We fundamentally believe in developing long term strategic partnerships with our clients by exceeding expectations and a great level of transparency
+        -->
+        <p><%= sanitize @about.body %></p>
+      </div>
+      
+      <div class="col-md-6 col-12 orer-1 order-md-12 align-self-center"> <%= @about.image %></div>
+    </div>
+  </div>
+</section>
+<section id="experience_sec" class="experience_inner">
+  <div class="element_img hang"><%= image_tag("element_ico1.png", alt: "") %></div>
+  <div class="container">
+    <div>
+      <div id="counter">
+        <div class="row">
+          <div class="col-sm-3 wow fadeInLeft">
+            <div class="counter_bx counter_bx1">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <div class="counter-value" data-count="1050"></div>
+                </li>
+                <li class="list-inline-item"><i class="fas fa-plus"></i></li>
+              </ul>
+              <h5>Web Apps 
+                Delivered</h5>
+              <div class="border"></div>
+            </div>
+          </div>
+          <div class="col-sm-3 wow fadeInLeft">
+            <div class="counter_bx counter_bx2">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <div class="counter-value" data-count="700"></div>
+                </li>
+                <li class="list-inline-item"><i class="fas fa-plus"></i></li>
+              </ul>
+              <h5>Web Apps 
+                Delivered</h5>
+              <div class="border"></div>
+            </div>
+          </div>
+          <div class="col-sm-3 wow fadeInLeft">
+            <div class="counter_bx counter_bx3">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <div class="counter-value" data-count="100"></div>
+                </li>
+                <li class="list-inline-item"><i class="fas fa-plus"></i></li>
+              </ul>
+              <h5>Web Apps 
+                Delivered</h5>
+              <div class="border"></div>
+            </div>
+          </div>
+          <div class="col-sm-3 wow fadeInLeft">
+            <div class="counter_bx counter_bx4">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <div class="counter-value" data-count="20"></div>
+                </li>
+                <li class="list-inline-item"><i class="fas fa-plus"></i></li>
+              </ul>
+              <h5>Web Apps 
+                Delivered</h5>
+              <div class="border"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="our_team_sec">
+  <div class="element_img hang"><%= image_tag("element_5.png", alt: "") %></div>
+  <h2 class="mheading text-center">Meet Our Team</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <div class="team_box"> <%= image_tag("team_1.jpg", alt: "team") %>
+          <div class="d-none d-md-block">
+            <h5>David B. Maxwell</h5>
+            <h6>Web Designer</h6>
+          </div>
+          <div class="team_box_overlay">
+            <h5>David B. Maxwell</h5>
+            <h6>Web Designer</h6>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="team_box"> <%= image_tag("team_2.jpg", alt: "team") %>
+          <div class="d-none d-md-block">
+            <h5>Heather J. Tice</h5>
+            <h6>Developer</h6>
+          </div>
+          <div class="team_box_overlay">
+            <h5>Heather J. Tice</h5>
+            <h6>Developer</h6>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="team_box"> <%= image_tag("team_3.jpg", alt: "team") %>
+          <div class="d-none d-md-block">
+            <h5>James K. Briggs</h5>
+            <h6>Web Designer</h6>
+          </div>
+          <div class="team_box_overlay">
+            <h5>James K. Briggs</h5>
+            <h6>Web Designer</h6>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="team_box"> <%= image_tag("team_4.jpg", alt: "team") %>
+          <div class="d-none d-md-block">
+            <h5>Marcus M. Deleon</h5>
+            <h6>CEO & Founder</h6>
+          </div>
+          <div class="team_box_overlay">
+            <h5>Marcus M. Deleon</h5>
+            <h6>CEO & Founder</h6>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="client_logosec">
+  <div class="container">
+    <div class="client_logosec_inner client_logosec_inner2">
+      <h3 class="mheading2">Project Management Tools</h3>
+      <ul class="list-inline">
+        <li class="list-inline-item wow fadeInLeft">
+          <div class="client_pro_logo client_pro_logo1"></div>
+        </li>
+        <li class="list-inline-item wow fadeInLeft">
+          <div class="client_pro_logo client_pro_logo2"></div>
+        </li>
+        <li class="list-inline-item wow fadeInLeft">
+          <div class="client_pro_logo client_pro_logo3"></div>
+        </li>
+        <li class="list-inline-item wow fadeInLeft">
+          <div class="client_pro_logo client_pro_logo4"></div>
+        </li>
+        <li class="list-inline-item wow fadeInLeft">
+          <div class="client_pro_logo client_pro_logo5"></div>
+        </li>
+        <li class="list-inline-item wow fadeInLeft">
+          <div class="client_pro_logo client_pro_logo6"></div>
+        </li>
+      </ul>
+      <div class="text-center"> <a href="javascript:void(0);" class="a_btn mt-3">LET’S TALK</a> </div>
+    </div>
+  </div>
+</section>
+<script>
+  wow = new WOW(
+    {
+      animateClass: 'animated',
+      offset:       100,
+      callback:     function(box) {
+        // console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+      }
+    }
+  );
+  wow.init();
+  // document.getElementById('moar').onclick = function() {
+  //   var section = document.createElement('section');
+  //   section.className = 'section--purple wow fadeInDown';
+  //   this.parentNode.insertBefore(section, this);
+  // };
+</script> 
+<script>
+  var a = 0;
+  $(window).scroll(function() {
+
+    var oTop = $('#counter').offset().top - window.innerHeight;
+    if (a == 0 && $(window).scrollTop() > oTop) {
+      $('.counter-value').each(function() {
+        var $this = $(this),
+          countTo = $this.attr('data-count');
+        $({
+          countNum: $this.text()
+        }).animate({
+            countNum: countTo
+          },
+
+          {
+
+            duration: 2000,
+            easing: 'swing',
+            step: function() {
+              $this.text(Math.floor(this.countNum));
+            },
+            complete: function() {
+              $this.text(this.countNum);
+              //alert('finished');
+            }
+
+          });
+      });
+      a = 1;
+    }
+
+  });
+</script>

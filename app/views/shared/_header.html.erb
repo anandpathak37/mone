@@ -1,0 +1,122 @@
+<header>
+  <div class="header_mdiv">
+    <div class="container ">
+      <div class="d-flex justify-content-between">
+        <ul class="list-inline d-flex head_ul1">
+          <li class="list-inline-item align-self-center">
+            <div class="toggle">
+              <div class="menu bg_sitec"> 
+                
+                <!-- Menu icon -->
+                
+                <div class="icon-close"> <a><i class="fas fa-times"></i></a></div>
+                
+                <!-- Menu -->
+                
+                <ul>
+                  <li><a href=<%= index_path() %>>Home</a></li>
+                  <li><a href=<%= about_path() %>>About</a></li>
+                  <li><a href=<%= partner_path() %>>Partner with us</a></li>
+                  <li><a href=<%= career_path() %>>Partner with us</a></li>
+                  <li class="drop_menuli drop_menuli2"><a href="javascript:void(0);">Services</a>
+                    <ul class="list-unstyled drop_menuul drop_menuul2">
+                      <li><a href=<%= service_detail_path() %>> Web development</a></li>
+                      <li><a href=<%= service_detail_path() %>> Mobile development</a></li>
+                      <li><a href=<%= service_detail_path() %>>IoT</a></li>
+                      <li><a href=<%= service_detail_path() %>>Big Data</a></li>
+                      <li><a href=<%= service_detail_path() %>>Enterprise Apps</a></li>
+                      <li><a href=<%= service_detail_path() %>>Artificial Intelligence</a></li>
+                      <li><a href=<%= service_detail_path() %>>Software Testing</a></li>
+                      <li><a href=<%= service_detail_path() %>>Devoops and QA</a></li>
+                      <li><a href=<%= service_detail_path() %>>Web Design</a></li>
+                    </ul>
+                  </li>
+                  <li><a href=<%= portfolio_path() %>>Portfolio</a></li>
+                  <li class="drop_menuli drop_menuli1"><a href="javascript:void(0);">Technologies</a>
+                    <ul class="list-unstyled drop_menuul drop_menuul1">
+                      <li><a href=<%= blockchain_path() %>> Web development</a></li>
+                      <li><a href=<%= blockchain_path() %>> Ruby</a></li>
+                      <li><a href=<%= blockchain_path() %>> Ruby on rails</a></li>
+                      <li><a href=<%= blockchain_path() %>> Python</a></li>
+                      <li><a href=<%= blockchain_path() %>> Django</a></li>
+                      <li><a href=<%= blockchain_path() %>> Go</a></li>
+                      <li><a href=<%= blockchain_path() %>> Angular</a></li>
+                      <li><a href=<%= blockchain_path() %>> React</a></li>
+                      <li><a href=<%= blockchain_path() %>> VueJS</a></li>
+                      <li><a href=<%= blockchain_path() %>> Blockchain</a></li>
+                      <li><a href=<%= blockchain_path() %>> Machine Learning</a></li>
+                      <li><a href=<%= blockchain_path() %>> Data Science</a></li>
+                      <li><a href=<%= blockchain_path() %>> NodeJs</a></li>
+                      <li><a href=<%= blockchain_path() %>> Devoops</a></li>
+                    </ul>
+                  </li>
+                  <li><a href=<%= contact_path() %>>Contact</a></li>
+                </ul>
+              </div>
+              
+              <!-- Main body -->
+              
+              <div class="icon-menu"> <a href="javascript:void(0);" class="menu_icoimg custom_ico2"><!-- <img src="images/menu_icon.png" alt="menu_icon" class="sblue_logo_img">
+              <img src="images/orange_menu_icon.png" alt="menu_icon" class="orange_logo_img">
+              <img src="images/blue_menu_icon.png" alt="menu_icon" class="blue_logo_img">
+              <img src="images/red_menu_icon.png" alt="menu_icon" class="red_logo_img">
+              <img src="images/green_menu_icon.png" alt="menu_icon" class="green_logo_img">
+              <img src="images/pink_menu_icon.png" alt="menu_icon" class="pink_logo_img">--></a> </div>
+            </div>
+          </li>
+          <li class="list-inline-item align-self-center">
+            <a class="logo custom_ico" href="javascript:void(0);"> 
+              <!--<img src="images/logo.png" alt="logo" class="sblue_logo_img">
+              <img src="images/orange_logo.png" alt="logo" class="orange_logo_img">
+              <img src="images/blue_logo.png" alt="logo" class="blue_logo_img">
+              <img src="images/red_logo.png" alt="logo" class="red_logo_img">
+              <img src="images/green_logo.png" alt="logo" class="green_logo_img">
+              <img src="images/pink_logo.png" alt="logo" class="pink_logo_img">--> 
+            
+            </a>
+          </li>
+        </ul>
+        <ul class="list-inline d-flex head_ul2">
+          <li class="sel_menu_home list-inline-item align-self-center"><a href=<%= index_path() %>><span class="in_border"></span>Home</a></li>
+          <li class="sel_menu_about list-inline-item align-self-center"><a href=<%= about_path() %>><span class="in_border"></span> About</a></li>
+          <li class="sel_menu_partner list-inline-item align-self-center"><a href=<%= partner_path() %>><span class="in_border"></span> Partner with us</a></li>
+          <li class="sel_menu_career list-inline-item align-self-center"><a href=<%= career_path() %>><span class="in_border"></span> Career</a></li>
+          <li class="sel_menu_services list-inline-item align-self-center drop_li drop_li1"><a href="javascript:void(0);"><span class="in_border"></span> Services <i class="fas fa-chevron-down"></i></a>
+            <ul class="list-unstyled drop_ul drop_ul1 bg_sitec">
+              <li><a href=<%= service_detail_path() %>> Web development</a></li>
+              <li><a href=<%= service_detail_path() %>> Mobile development</a></li>
+              <li><a href=<%= service_detail_path() %>>IoT</a></li>
+              <li><a href=<%= service_detail_path() %>>Big Data</a></li>
+              <li><a href=<%= service_detail_path() %>>Enterprise Apps</a></li>
+              <li><a href=<%= service_detail_path() %>>Artificial Intelligence</a></li>
+              <li><a href=<%= service_detail_path() %>>Software Testing</a></li>
+              <li><a href=<%= service_detail_path() %>>Devoops and QA</a></li>
+              <li><a href=<%= service_detail_path() %>>Web Design</a></li>
+            </ul>
+          </li>
+          <li class="sel_menu_portfolio list-inline-item align-self-center"><a href=<%= portfolio_path() %>><span class="in_border"></span> Portfolio</a></li>
+          <li class="sel_menu_techno list-inline-item align-self-center drop_li drop_li2"><a href="javascript:void(0);"><span class="in_border"></span> Technologies <i class="fas fa-chevron-down"></i></a>
+            <ul class="list-unstyled drop_ul drop_ul2 bg_sitec">
+              <li><a href=<%= blockchain_path() %>> Web development</a></li>
+              <li><a href=<%= blockchain_path() %>> Ruby</a></li>
+              <li><a href=<%= blockchain_path() %>> Ruby on rails</a></li>
+              <li><a href=<%= blockchain_path() %>> Python</a></li>
+              <li><a href=<%= blockchain_path() %>> Django</a></li>
+              <li><a href=<%= blockchain_path() %>> Go</a></li>
+              <li><a href=<%= blockchain_path() %>> Angular</a></li>
+              <li><a href=<%= blockchain_path() %>> React</a></li>
+              <li><a href=<%= blockchain_path() %>> VueJS</a></li>
+              <li><a href=<%= blockchain_path() %>> Blockchain</a></li>
+              <li><a href=<%= blockchain_path() %>> Machine Learning</a></li>
+              <li><a href=<%= blockchain_path() %>> Data Science</a></li>
+              <li><a href=<%= blockchain_path() %>> NodeJs</a></li>
+              <li><a href=<%= blockchain_path() %>> Devoops</a></li>
+            </ul>
+          </li>
+          <li class="sel_menu_contact list-inline-item align-self-center"><a href=<%= contact_path() %>><span class="in_border"></span> Contact</a></li>
+          <li class="list-inline-item align-self-center"><a href="#footer" class="a_btn">REQUEST A QUOTE</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

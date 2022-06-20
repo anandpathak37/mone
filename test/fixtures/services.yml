@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  web: MyString
+  mobile: MyString
+  IoT: MyString
+  BigD: MyString
+  EnterAp: MyString
+  AI: MyString
+  QA: MyString
+  dev: MyString
+  design: MyString
+
+two:
+  web: MyString
+  mobile: MyString
+  IoT: MyString
+  BigD: MyString
+  EnterAp: MyString
+  AI: MyString
+  QA: MyString
+  dev: MyString
+  design: MyString

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shriffle</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-32x32.png">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+   <!--  <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+    <link href="css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css"> -->
+  </head>
+
+  <body>
+    <%= render "shared/color_extension" %>
+    <%= render "shared/header" %>
+    <%= yield %>
+    <%= render "shared/footer" %>
+  </body>
+</html>
